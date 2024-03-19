@@ -1,0 +1,34 @@
+.signup{
+    background-color: rgb(238, 148, 14);
+    font-family: "Times New Roman", Times, serif;
+    color: white;
+   height: 120px;
+   line-height: 100px;
+    text-align: center;
+    
+
+}
+
+.bodyy{
+    background-color:rgb(1, 1, 22);
+    color:rgb(186, 186, 7);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+
+}
+
+.buttons{
+    margin-bottom: 30px;
+}
+
+.register{
+    background-color: rgb(219, 195, 159);
+    color: rgb(244, 27, 27);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.bluee{
+    background-color: rgb(0, 200, 255);
+}
+

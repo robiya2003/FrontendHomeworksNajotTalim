@@ -1,0 +1,19 @@
+
+.black1{
+    background-color: rgb(50, 49, 49);
+    color: wheat;
+    text-align: center;
+  
+}
+.umumiy{
+    margin: auto;
+    width: 30%;
+    border: 3px solid #0c0d0c;
+    padding: 10px;
+    
+    background-color: rgb(50, 49, 49);
+    color: white;
+    margin-bottom: 30px;
+
+}
+
