@@ -3,6 +3,7 @@
     background-color: rgb(50, 49, 49);
     color: wheat;
     text-align: center;
+    margin-left: 35%;
   
 }
 .umumiy{
@@ -16,4 +17,7 @@
     margin-bottom: 30px;
 
 }
-
+.flex{
+    margin-left: 35%;
+    margin-bottom: 30px;
+}
