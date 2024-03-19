@@ -1,0 +1,29 @@
+.table {
+    border-collapse: collapse;
+    border: 2px solid rgb(15, 14, 14);
+    font-family: sans-serif;
+    font-size: 0.8rem;
+    letter-spacing: 1px;
+  }
+  th,
+td {
+  border: 1px solid rgb(5, 5, 5);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+.pinc3{
+    background-color: rgb(239, 146, 195);
+}
+.blue3{
+    background-color: rgb(130, 215, 240);
+}
+.yellow3{
+    background-color: blanchedalmond;
+}
+.kulrang3{
+background-color: rgb(150, 152, 154);
+}
