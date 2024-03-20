@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registratsiya</title>
+    <style>
+        input,label{
+            
+            margin-top: 15px;
+            font-style: italic;
+        }
+        form{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 20%;
+            margin-right: 20%;
+            background-color: rgb(12, 54, 54);
+            color: white;
+            
+        }
+        .box-1{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 35%;
+            margin-right: 20%;
+        }
+        .box-2{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 27%;
+           
+        }
+       
+            
+        
+    </style>
+</head>
+<body>
+    <form>
+        <div class="box-1">
+            <!--Foydalanuvchi ismini olish uchun-->
+            <label for="name">Ismingizni kiriting : </label>
+            <input type="text" name="name" id="name"><br>
+
+            <!--Foydalanuvchi familiyasini olish uchun-->
+            <label for="surname">Familiyangizni kiriting : </label>
+            <input type="text" name="surname" id="surname"><br>
+
+            <!--Foydalanuvchi emailini olish uchun-->
+            <label for="email" >Emailingizni kiriting : </label>
+            <input type="email" name="email" id="email" style="margin-bottom: 15px;"><br>
+
+            <!--Foydalanuvchi adreasini olish-->
+            <label for="address" >Manzilingizni kiriting : </label>
+            <textarea name="address" id="address" ></textarea><br>
+
+            <!--Foydalanuvchi tug'ilgan sanasini olish-->
+            <label for="birthdate">Tug'ilgan sanagizni belgilang : </label>
+            <input type="date" name="birthdate" id="birthdate" ><br>
+
+            <!--Foydalanuvchi jinsini olish-->
+            <label for="gender">Tanlang : </label>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female" style="margin-bottom: 30px;"><br>
+
+
+
+            <!--Foydalaunvchi qaysi tillarni biladi-->
+            <label for="checkbox">Tillarni Tanlang</label><br>
+            <label for="html">html</label>
+            <input type="checkbox" name="html" id="html" value="html"><br>
+            <label for="css">css</label>
+            <input type="checkbox" name="css" id="css" value="css"><br>
+            <label for="python">python</label>
+            <input type="checkbox" name="python" id="python" value="python"><br>
+            <label for="c">c</label>
+            <input type="checkbox" name="c" id="c" value="c"><br>
+            <label for="rust">rust</label>
+            <input type="checkbox" name="rust" id="rust" value="rust"><br>
+        </div>
+        <div class="box-2">
+            <!--Button-->
+            <input type="button" value="cancel" style="background-color: red; width: 200px; height: 50px; margin-right: 30px;">
+            
+            <input type="button" value="submit" style="background-color:green; width: 200px; height: 50px;margin-bottom: 30px;">
+        </div>
+           
+    </form>
+</body>
+</html>
